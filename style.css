@@ -1,0 +1,86 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #271f47;
+    color: white;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2rem 0;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#about img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+#projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+#projects ul li {
+    margin: 1rem 0;
+}
+
+#projects ul li h3 {
+    margin: 0.5rem 0;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
